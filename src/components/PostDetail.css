@@ -1,0 +1,150 @@
+/* /* PostDetail.css
+
+.post-detail {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post-detail p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .post-text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .children-container {
+    margin-top: 20px;
+  }
+  
+  .child-post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .child-post h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .child-post p {
+    font-size: 14px;
+    color: #555;
+  }
+   */
+
+
+
+   .post-detail {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure child elements don't overflow */
+}
+
+.post-detail h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.post-detail p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.post-text {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.children-container {
+    margin-top: 20px;
+}
+
+.child-post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.child-post h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.child-post p {
+    font-size: 16px;
+    color: #666;
+} */
+
+
+.post-detail {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.post-detail h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.post-detail p {
+    margin: 8px 0;
+    color: #777;
+}
+
+.post-text {
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.children-container {
+    margin-top: 20px;
+}
+
+.child-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.child-post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.child-post p {
+    font-size: 18px;
+    color: #666;
+}
